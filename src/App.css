@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightskyblue;
+}
+
+/* .bg-img-container {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+} */
+
+.bg-img {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  font-size: 8rem;
+  margin: 26px;
+}
+
+.sub-title {
+  font-size: 5rem;
+  margin: 26px;
+}
