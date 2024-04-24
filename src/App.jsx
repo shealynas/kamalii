@@ -23,6 +23,9 @@ function App() {
         text="Get Tickets"
         href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
       />
+      <div className="about-section"></div>
+      <div className="ig-feed"></div>
+      <div className="sponsors-section"></div>
     </>
   );
 }
