@@ -1,16 +1,17 @@
 import "normalize.css";
 import "./App.css";
 import TicketButton from "./TicketButton";
+import Logo from "./images/Logo.png";
 import BoyFishing from "./images/BoyFishing.jpg";
 import GirlFishing from "./images/GirlFishing.jpg";
-// import Host from "./images/Host.PNG";
+import Host from "./images/Host.png";
 import sponsors from "./images/sponsors.png";
 
 function App() {
   return (
     <>
       <div className="header">
-        <img src="" alt="logo" />
+        <img src={Logo} alt="logo" />
         <p>about</p>
         <p>follow us</p>
         <p>instagram</p>
@@ -26,10 +27,13 @@ function App() {
         text="Get Tickets"
         href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
       />
-      {/* <div className="host-section">
-        <p className="host-content">Hosted by Port Allen Fishing Club</p>
+      <div className="host-section">
         <img className="host-img" src={Host} alt="" />
-      </div> */}
+        <p className="host-content">
+          Hosted by <br /> Port Allen <br />
+          Fishing Club
+        </p>
+      </div>
       <div className="about-section">
         <p>
           In the heart of Kauai’s west side, where recreational programs for
@@ -47,6 +51,7 @@ function App() {
       </div>
       <div className="ig-feed"></div>
       <div className="sponsors-section">
+        <p className="sponsor-content">Big Mahalos To Our Sponsors!</p>
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
     </>
