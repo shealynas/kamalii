@@ -28,3 +28,29 @@
   font-size: 5rem;
   margin: 26px;
 }
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 1200px;
+  margin-bottom: 0;
+
+  background-color: white;
+}
+
+.about-section p {
+  display: grid;
+  align-items: center;
+  margin: 50px;
+  font-size: 40px;
+}
+
+.about-img {
+  border: 20px solid black;
+}
+
+.sponsors-img {
+  width: 100%;
+  margin-bottom: 0;
+}

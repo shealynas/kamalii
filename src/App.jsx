@@ -2,6 +2,9 @@ import "normalize.css";
 import "./App.css";
 import TicketButton from "./TicketButton";
 import BoyFishing from "./images/BoyFishing.jpg";
+import GirlFishing from "./images/GirlFishing.jpg";
+// import Host from "./images/Host.PNG";
+import sponsors from "./images/sponsors.png";
 
 function App() {
   return (
@@ -23,9 +26,29 @@ function App() {
         text="Get Tickets"
         href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
       />
-      <div className="about-section"></div>
+      {/* <div className="host-section">
+        <p className="host-content">Hosted by Port Allen Fishing Club</p>
+        <img className="host-img" src={Host} alt="" />
+      </div> */}
+      <div className="about-section">
+        <p>
+          In the heart of Kauai’s west side, where recreational programs for
+          children are few, a new initiative was born: Kamali`i Fishing
+          Challenge. Launched by the Port Allen Fishing Club and spearheaded by
+          Margie Goodman, the event seeks to provide an enriching experience for
+          both youth and adults alike. Norman Kali, a driving force behind the
+          project, envisioned a community-centered, local style celebration
+          uniting hundreds of children and their families. With strong support
+          from island sponsors, this effort seeks to demonstrate that on Kaua`i,
+          our strength is in our collective spirit.
+        </p>
+
+        <img className="about-img" src={GirlFishing} alt="" />
+      </div>
       <div className="ig-feed"></div>
-      <div className="sponsors-section"></div>
+      <div className="sponsors-section">
+        <img className="sponsors-img" src={sponsors} alt="" />
+      </div>
     </>
   );
 }
