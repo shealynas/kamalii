@@ -51,7 +51,7 @@ function App() {
       </div>
       <div className="ig-feed"></div>
       <div className="sponsors-section">
-        <p className="sponsor-content">Big Mahalos To Our Sponsors!</p>
+        <p className="sponsors-content">Mahalo To Our Sponsors!</p>
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
     </>
