@@ -1,14 +1,15 @@
 a {
   margin: 3em;
+  margin-top: 1rem;
   font-family: arial;
   text-decoration: none;
   position: relative;
   display: inline-block;
-  padding: 1.5em 5em;
+  padding: 4.5em 9em;
   text-transform: uppercase;
   overflow: hidden;
   color: white;
-  border: 3px solid white;
+  border: 5px solid white;
   border-left: none;
   border-right: none;
   background: linear-gradient(
@@ -35,11 +36,11 @@ a:after {
   z-index: -1;
   content: "";
   position: absolute;
-  height: 1.2em;
-  width: 1em;
-  top: 1.4em;
+  height: 3.2em;
+  width: 2em;
+  top: 3.4em;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid white;
   box-shadow: 0 0 0 10em #ed5b04;
 }
 a:before {

@@ -24,14 +24,49 @@
   left: 0;
 }
 
+.top-info {
+  margin-left: 3rem;
+}
+
 .title {
-  font-size: 8rem;
-  margin: 26px;
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  font-size: 10rem;
+  margin-top: 7rem;
+  margin-left: 1.25rem;
+  margin-bottom: 2.5rem;
 }
 
 .sub-title {
-  font-size: 5rem;
+  font-family: "Caudex", serif;
+  font-weight: 500;
+  font-size: 7rem;
   margin: 26px;
+}
+
+.sub-info {
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-left: 35px;
+  margin-bottom: 26px;
+}
+
+.sub-info2 {
+  /* font-family: "Lato", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  margin-top: 26px;
+  margin-left: 35px;
+  margin-bottom: 5rem;
+}
+
+.register {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  margin-left: 40px;
+  margin-bottom: 0;
 }
 
 .host-section {

@@ -10,23 +10,28 @@ import sponsors from "./images/sponsors.png";
 function App() {
   return (
     <>
-      <div className="header">
+      {/* <div className="header">
         <img src={Logo} alt="logo" />
         <p>about</p>
         <p>follow us</p>
         <p>instagram</p>
         <p>facebook</p>
-      </div>
+      </div> */}
       <div className="bg-img-container">
         <img className="bg-img" src={BoyFishing} alt="" />
       </div>
-      <h1 className="title">Kamali&#x2BB;i Fishing Challenge</h1>
-      <h2 className="sub-title">Hawai&#x2BB;i's Largest Annual</h2>
-      <h2 className="sub-title">Keiki Fishing Event</h2>
-      <TicketButton
-        text="Get Tickets"
-        href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
-      />
+      <div className="top-info">
+        <h1 className="title">Kamali&#x2BB;i Fishing Challenge</h1>
+        <h2 className="sub-title">Hawai&#x2BB;i's Largest </h2>
+        <h2 className="sub-title">Keiki Fishing Event</h2>
+        <p className="sub-info">An Annual Celebration Hosted By</p>
+        <p className="sub-info2">Port Allen Fishing Club</p>
+        <p className="register">Register To Attend</p>
+        <TicketButton
+          text="Get Tickets"
+          href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
+        />
+      </div>
       <div className="host-section">
         <img className="host-img" src={Host} alt="" />
         <p className="host-content">
