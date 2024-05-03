@@ -10,6 +10,7 @@
 }
 
 /* .bg-img-container {
+  width: 100%;
   position: fixed;
   z-index: -1;
   top: 0;
@@ -26,22 +27,36 @@
 
 .top-info {
   margin-left: 3rem;
+  margin-right: 3rem;
+  background-color: rgba(211, 211, 211, 0.529);
+}
+
+.transparent-bg {
 }
 
 .title {
   font-family: "Caudex", serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 10rem;
+
   margin-top: 7rem;
   margin-left: 1.25rem;
   margin-bottom: 2.5rem;
 }
 
+/* .sub-title-container {
+  background-color: rgba(211, 211, 211, 0.529);
+  width: 40%;
+} */
+
 .sub-title {
   font-family: "Caudex", serif;
   font-weight: 500;
   font-size: 7rem;
+  /* color: #b7bccc; */
   margin: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .sub-info {
@@ -69,19 +84,14 @@
   margin-bottom: 0;
 }
 
-.host-section {
+/* .host-section {
   background-color: white;
-  margin-top: 1200px;
+  margin-top: 500px;
   margin-bottom: 0;
   display: flex;
-}
+} */
 
-.host-section img {
-  margin: 100px;
-  height: 900px;
-}
-
-.host-section p {
+/* .host-section p {
   font-size: 100px;
   display: flex;
   align-items: center;
@@ -89,26 +99,54 @@
   width: 100%;
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
 .about-section {
+  height: 700px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 0;
+  grid-template-columns: 1fr 1.25fr;
+  margin-top: 300px;
+  /* margin-bottom: 0; */
   background-color: white;
 }
 
 .about-section p {
   display: grid;
   align-items: center;
-  margin: 50px;
-  font-size: 40px;
+  margin-top: -150px;
+  margin-right: 100px;
+  margin-left: -40px;
+  font-size: 45px;
 }
 
 .about-img {
-  border: 50px solid black;
+  z-index: 1;
+  height: 900px;
+  margin-top: -150px;
+  border: 50px solid white;
   display: flex;
   justify-self: center;
+}
+
+.ig-feed {
+  margin-top: 0;
+  /* margin-bottom: 200px; */
+  background-color: #01508b;
+}
+
+.profile {
+  margin-left: 70px;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.host-img {
+  margin: 100px;
+  height: 650px;
+}
+
+.logo-img {
+  height: 650px;
 }
 
 .sponsors-section {
@@ -134,4 +172,9 @@
 .sponsors-img {
   width: 2500px;
   margin-bottom: 0;
+}
+
+footer {
+  background-color: #01508b;
+  height: 300px;
 }
