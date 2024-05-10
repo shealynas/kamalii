@@ -1,3 +1,7 @@
+#root {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -18,30 +22,34 @@
 } */
 
 .bg-img {
+  background-image: url("src/images/BoyFishing3.jpg");
   width: 100%;
   position: fixed;
   z-index: -1;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
 }
 
 .top-info {
-  margin-left: 3rem;
-  margin-right: 3rem;
-  background-color: rgba(211, 211, 211, 0.529);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .transparent-bg {
+  z-index: 0;
+  position: relative;
+  background-color: rgba(211, 211, 211, 0.529);
 }
 
 .title {
   font-family: "Caudex", serif;
   font-weight: 900;
-  font-size: 10rem;
-
-  margin-top: 7rem;
-  margin-left: 1.25rem;
-  margin-bottom: 2.5rem;
+  font-size: 4.5rem;
+  color: #053e43;
+  margin-top: 1rem;
 }
 
 /* .sub-title-container {
@@ -52,35 +60,42 @@
 .sub-title {
   font-family: "Caudex", serif;
   font-weight: 500;
-  font-size: 7rem;
+  font-size: 2.5rem;
+  color: #08585f;
+  margin: 12px;
+  /* color: #007190; */
   /* color: #b7bccc; */
-  margin: 26px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* margin: 26px; */
 }
 
 .sub-info {
   /* font-family: "Lato", sans-serif; */
   font-family: "Poppins", sans-serif;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 2px #08585f, 0 0 1em #08585f, 0 0 0.2em #08585f;
   margin-top: 3rem;
-  margin-left: 35px;
-  margin-bottom: 26px;
+  margin-left: 12px;
+  margin-bottom: 0px;
 }
 
 .sub-info2 {
   /* font-family: "Lato", sans-serif; */
+  color: white;
+  text-shadow: 1px 1px 2px #08585f, 0 0 1em #08585f, 0 0 0.2em #08585f;
   font-family: "Poppins", sans-serif;
-  font-size: 3rem;
-  margin-top: 26px;
-  margin-left: 35px;
-  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-left: 12px;
+  margin-bottom: 3rem;
+  padding-top: 0;
 }
 
 .register {
+  color: #ed5b04;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  margin-left: 40px;
+  font-size: 1.25rem;
+  margin-left: 12px;
   margin-bottom: 0;
 }
 
@@ -102,6 +117,7 @@
 } */
 
 .about-section {
+  z-index: 0;
   height: 700px;
   display: grid;
   grid-template-columns: 1fr 1.25fr;
@@ -116,37 +132,67 @@
   margin-top: -150px;
   margin-right: 100px;
   margin-left: -40px;
-  font-size: 45px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
 }
 
 .about-img {
-  z-index: 1;
-  height: 900px;
-  margin-top: -150px;
+  /* z-index: 1; */
+  height: 950px;
+  margin-top: -140px;
   border: 50px solid white;
   display: flex;
   justify-self: center;
 }
 
-.ig-feed {
+.ig-feed-section {
   margin-top: 0;
   /* margin-bottom: 200px; */
   background-color: #01508b;
+  /* overflow: hidden; */
+}
+
+.stay-updated-text {
+  margin: 50px;
+  font-size: 6rem;
+  font-family: "Caudex", serif;
+  font-weight: 700;
+  color: #ed5b04;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 50px; */
+}
+
+.ig-feed-content {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
 }
 
 .profile {
-  margin-left: 70px;
-  padding-top: 250px;
-  padding-bottom: 200px;
+  display: flex;
+  align-self: center;
+  padding-top: 20px;
+  /* padding-bottom: 200px; */
+}
+
+.logo-host-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }
 
 .host-img {
-  margin: 100px;
+  /* margin-left: 200px;
+  margin-top: 0; */
   height: 650px;
 }
 
 .logo-img {
-  height: 650px;
+  z-index: 15;
+  width: 40rem;
+  margin-top: -20rem;
+  position: relative;
 }
 
 .sponsors-section {
@@ -156,14 +202,16 @@
   align-items: center;
 }
 
-.sponsors-content {
-  background-color: #f1cb03;
+.sponsors-text {
+  background-color: white;
+  color: #ed5b04;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 75px;
   font-weight: 550;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -177,4 +225,47 @@
 footer {
   background-color: #01508b;
   height: 300px;
+}
+
+@media (min-width: 768px) {
+  .bg-img {
+    background-image: url("/BoyFishing2.jpg");
+  }
+
+  .top-info {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .title {
+    font-size: 10rem;
+    margin-top: 7rem;
+    margin-left: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  .sub-title {
+    font-size: 7rem;
+    /* color: #007190; */
+    /* color: #b7bccc; */
+    margin: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sub-info {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 35px;
+    margin-bottom: 26px;
+  }
+  .sub-info2 {
+    font-size: 3rem;
+    margin-top: 26px;
+    margin-left: 35px;
+    margin-bottom: 5rem;
+  }
+  .register {
+    font-size: 2rem;
+    margin-left: 40px;
+    margin-bottom: 0;
+  }
 }

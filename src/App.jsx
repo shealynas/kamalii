@@ -1,10 +1,9 @@
 import "normalize.css";
 import "./App.css";
-
 import { InstagramEmbed } from "react-social-media-embed";
 import TicketButton from "./TicketButton";
 import Logo from "./images/Logo.png";
-import BoyFishing2 from "./images/BoyFishing2.jpg";
+// import BoyFishing2 from "./images/BoyFishing2.jpg";
 import GirlFishing2 from "./images/GirlFishing2.jpg";
 import Host from "./images/Host.png";
 import Logo2 from "./images/Logo2.png";
@@ -13,15 +12,8 @@ import sponsors from "./images/sponsors.png";
 function App() {
   return (
     <>
-      {/* <div className="header">
-        <img src={Logo} alt="logo" />
-        <p>about</p>
-        <p>follow us</p>
-        <p>instagram</p>
-        <p>facebook</p>
-      </div> */}
       <div className="bg-img-container">
-        <img className="bg-img" src={BoyFishing2} alt="" />
+        <div className="bg-img" alt="" />
 
         <div className="top-info">
           <div className="transparent-bg">
@@ -32,13 +24,14 @@ function App() {
 
             <p className="sub-info">An Annual Celebration Hosted By</p>
             <p className="sub-info2">Port Allen Fishing Club</p>
-          </div>
-          <div className="ticket-btn-container">
-            <p className="register">Register To Attend</p>
-            <TicketButton
-              text="Get Tickets"
-              href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
-            />
+
+            <div className="ticket-btn-container">
+              <p className="register">Register To Attend</p>
+              <TicketButton
+                text="Get Tickets"
+                href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -63,27 +56,32 @@ function App() {
           our strength is in our collective spirit.
         </p>
       </div>
-      <div className="ig-feed">
-        {/* <p>Stay Updated</p> */}
-        <div style={{ display: "flex", justifyContent: "start" }}>
-          <InstagramEmbed
-            className="profile"
-            url="https://www.instagram.com/kamalii_challenge/?utm_source=ig_embed&ig_rid=6cfa3df0-fd64-42ff-b20e-851d2e0f67b8"
-            width={1250}
-          />
-          <img className="host-img" src={Host} alt="" />
-          <img className="logo-img" src={Logo} alt="" />
+
+      <div className="ig-feed-section">
+        <p className="stay-updated-text">Stay Updated</p>
+        <div className="ig-feed-content">
+          <div>
+            <InstagramEmbed
+              className="profile"
+              url="https://www.instagram.com/kamalii_challenge/?utm_source=ig_embed&ig_rid=6cfa3df0-fd64-42ff-b20e-851d2e0f67b8"
+              width={1350}
+            />
+          </div>
+          <div className="logo-host-container">
+            <img className="logo-img" src={Logo} alt="" />
+            <img className="host-img" src={Host} alt="" />
+          </div>
         </div>
       </div>
       <div className="sponsors-section">
-        <p className="sponsors-content">
-          Mahalo To Our Sponsors! or Sponsor Shoutout
-        </p>
+        <p className="sponsors-text">Mahalo To Our Sponsors!</p>
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
       <footer></footer>
     </>
   );
 }
+
+// style={{ display: "flex", justifyContent: "center" }}
 
 export default App;

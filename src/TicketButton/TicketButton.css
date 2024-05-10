@@ -1,5 +1,5 @@
-a {
-  margin: 3em;
+/* a {
+  margin: 2.5em;
   margin-top: 1rem;
   font-family: arial;
   text-decoration: none;
@@ -28,7 +28,7 @@ a {
         white calc(100% - 3px)
       )
       bottom left no-repeat;
-  background-size: 100% 1.45em;
+  background-size: 100% 3.3em;
 }
 
 a:before,
@@ -37,10 +37,62 @@ a:after {
   content: "";
   position: absolute;
   height: 3.2em;
-  width: 2em;
-  top: 3.4em;
+  width: 3em;
+  top: 3.2em;
   border-radius: 50%;
   border: 5px solid white;
+  box-shadow: 0 0 0 10em #ed5b04;
+}
+a:before {
+  left: -1.3em;
+}
+a:after {
+  right: -1.3em;
+} */
+
+a {
+  font-size: 1rem;
+  margin: 1em;
+  font-family: arial;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 1.5em 5em;
+  text-transform: uppercase;
+  overflow: hidden;
+  color: white;
+  border: 3px dashed white;
+  border-left: none;
+  border-right: none;
+  background: linear-gradient(
+        to left,
+        white 3px,
+        transparent 3px,
+        transparent calc(100% - 3px),
+        white calc(100% - 3px)
+      )
+      top left no-repeat,
+    linear-gradient(
+        to left,
+        white 3px,
+        transparent 3px,
+        transparent calc(100% - 3px),
+        white calc(100% - 3px)
+      )
+      bottom left no-repeat;
+  background-size: 100% 1.45em;
+}
+
+a:before,
+a:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 1.2em;
+  width: 1em;
+  top: 1.35em;
+  border-radius: 50%;
+  border: 3px dashed white;
   box-shadow: 0 0 0 10em #ed5b04;
 }
 a:before {
@@ -48,4 +100,15 @@ a:before {
 }
 a:after {
   right: -0.7em;
+}
+b:after {
+  content: "";
+  color: #da153e;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  a {
+    font-size: 2rem;
+  }
 }
