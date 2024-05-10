@@ -121,7 +121,7 @@
 
 .about-section {
   z-index: 0;
-  /* height: 700px; */
+  height: auto;
   display: grid;
   grid-template-rows: 1fr 1fr;
   margin-top: 100px;
@@ -155,17 +155,17 @@
 
 .ig-feed-section {
   margin-top: 0;
-
-  /* margin-bottom: 200px; */
+  padding-bottom: 20px;
   background-color: #01508b;
   overflow: hidden;
 }
 
 .stay-updated-text {
-  margin: 50px;
-  font-size: 6rem;
+  margin: 20px;
+  margin-bottom: 0;
+  font-size: 3rem;
   font-family: "Caudex", serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #ed5b04;
   display: flex;
   justify-content: center;
@@ -174,33 +174,39 @@
 
 .ig-feed-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 15rem;
+  gap: 2rem;
 }
 
 .profile {
   display: flex;
   align-self: center;
-  padding-top: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 350px;
   /* padding-bottom: 200px; */
 }
 
 .logo-host-container {
   display: flex;
-  flex-direction: column;
-  gap: 5rem;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .host-img {
   /* margin-left: 200px;
   margin-top: 0; */
-  height: 650px;
+  /* height: 650px; */
+  height: 7rem;
+  width: auto;
 }
 
 .logo-img {
-  z-index: 15;
-  width: 40rem;
-  margin-top: -20rem;
+  z-index: 1;
+  width: 7rem;
+  height: auto;
+  /* margin-top: -20rem; */
   position: relative;
 }
 
@@ -306,5 +312,56 @@ footer {
     border: 50px solid white;
     display: flex;
     justify-self: center;
+  }
+
+  /* .ig-feed-section {
+    margin-top: 0; */
+  /* margin-bottom: 200px; */
+  /* background-color: #01508b;
+    overflow: hidden;
+  } */
+
+  .stay-updated-text {
+    margin: 50px;
+    font-size: 6rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 50px; */
+  }
+
+  .ig-feed-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+  }
+
+  .profile {
+    display: flex;
+    align-self: center;
+    padding-top: 20px;
+    width: 1350px;
+    height: auto;
+    /* padding-bottom: 200px; */
+  }
+
+  .logo-host-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .host-img {
+    /* margin-left: 200px;
+    margin-top: 0; */
+    height: 650px;
+  }
+
+  .logo-img {
+    z-index: 15;
+    width: 40rem;
+    margin-top: -20rem;
+    position: relative;
   }
 }

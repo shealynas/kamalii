@@ -64,7 +64,6 @@ function App() {
             <InstagramEmbed
               className="profile"
               url="https://www.instagram.com/kamalii_challenge/?utm_source=ig_embed&ig_rid=6cfa3df0-fd64-42ff-b20e-851d2e0f67b8"
-              width={1350}
             />
           </div>
           <div className="logo-host-container">
