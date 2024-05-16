@@ -50,7 +50,7 @@ a:after {
   right: -1.3em;
 } */
 
-a {
+.ticketbtn {
   font-size: 1rem;
   margin: 1em;
   font-family: arial;
@@ -83,8 +83,8 @@ a {
   background-size: 100% 1.45em;
 }
 
-a:before,
-a:after {
+.ticketbtn:before,
+.ticketbtn:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -95,20 +95,20 @@ a:after {
   border: 3px dashed white;
   box-shadow: 0 0 0 10em #ed5b04;
 }
-a:before {
+.ticketbtn:before {
   left: -0.7em;
 }
-a:after {
+.ticketbtn:after {
   right: -0.7em;
 }
-b:after {
+.ticketbtn:after {
   content: "";
   color: #da153e;
   font-weight: bold;
 }
 
 @media (min-width: 768px) {
-  a {
+  .ticketbtn {
     font-size: 2rem;
   }
 }

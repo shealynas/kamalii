@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ({ text, href }) {
   return (
-    <a href={href}>
+    <a className="ticketbtn" href={href}>
       {" "}
       <b> {text} </b>
     </a>

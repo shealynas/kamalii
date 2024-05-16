@@ -7,12 +7,10 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-import "./styles.css";
-
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
-export default function App() {
+export default function () {
   return (
     <>
       <Swiper
@@ -32,10 +30,10 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="src/images/Collage/One.jpg" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="src/images/Collage/e96ekMRA 2.jpg" />
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
