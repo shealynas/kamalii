@@ -85,9 +85,9 @@ function App() {
         <p className="sponsors-text">Mahalo Sponsors</p>
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
-      {/* <div className="swiper-section">
+      <div className="swiper-section">
         <Swiper />
-      </div> */}
+      </div>
       <footer>
         <div className="footer-content">
           <div className="address-block">
@@ -98,17 +98,17 @@ function App() {
               title="Map"
             >
               <PiMapPinLight className="map-icon" />
+              <div className="icon-text">
+                <p>Port Allen Harbor </p>
+                <p>Ele&#x2BB;ele, HI 96705</p>
+              </div>
             </a>
-            <div className="map-text">
-              <p>Port Allen Harbor </p>
-              <p>Ele&#x2BB;ele, HI 96705</p>
-            </div>
           </div>
           <div className="links-block">
             <div className="email-block">
               <a href="mailto:kamaliichallenge@gmail.com" title="Email:">
                 <TfiEmail className="icon" />
-                <span className="icon-text">kamaliichallenge@gmail.com</span>
+                <p className="icon-text">kamaliichallenge@gmail.com</p>
               </a>
             </div>
             <div className="ig-block">
@@ -119,7 +119,7 @@ function App() {
                 title="Instagram"
               >
                 <TfiInstagram className="icon" />
-                <span className="icon-text">@kamaliichallenge</span>
+                <p className="icon-text">@kamaliichallenge</p>
               </a>
             </div>
           </div>

@@ -53,7 +53,7 @@ a:after {
 .ticketbtn {
   font-size: 1rem;
   margin: 1em;
-  font-family: arial;
+  font-family: "Caudex", sans-serif;
   text-decoration: none;
   position: relative;
   display: inline-block;
