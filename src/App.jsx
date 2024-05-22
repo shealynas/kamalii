@@ -12,8 +12,8 @@ import GirlFishing2 from "./images/GirlFishing2.jpg";
 import Host from "./images/Host.png";
 import Logo2 from "./images/Logo2.png";
 import sponsors from "./images/sponsors.png";
-import { SwiperSlide } from "swiper/react";
-import Swiper from "./Swiper/Swiper";
+// import { SwiperSlide } from "swiper/react";
+// import Swiper from "./Swiper/Swiper";
 // import Collage from "./Collage";
 
 function App() {
@@ -85,9 +85,9 @@ function App() {
         <p className="sponsors-text">Mahalo Sponsors</p>
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
-      <div className="swiper-section">
+      {/* <div className="swiper-section">
         <Swiper />
-      </div>
+      </div> */}
       <footer>
         <div className="footer-content">
           <div className="address-block">
