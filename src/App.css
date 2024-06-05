@@ -2,16 +2,16 @@
   overflow-x: hidden;
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(244, 243, 239);
-}
+} */
 
-.header img {
+/* .header img {
   height: 300px;
   padding-bottom: 20px;
-}
+} */
 
 /* .bg-img-container {
   width: 100%;
@@ -51,6 +51,7 @@
   color: #053e43;
   margin-top: 1rem;
   margin-left: 7px;
+  margin-bottom: 1.5rem;
 }
 
 /* .sub-title-container {
@@ -75,13 +76,13 @@
   font-size: 1.5rem;
   color: white;
   text-shadow: 1px 1px 2px #08585f, 0 0 1em #08585f, 0 0 0.2em #08585f;
-  margin-top: 3rem;
+  margin-top: 2.2rem;
   margin-left: 12px;
-  margin-bottom: 0px;
+  margin-bottom: 2.5rem;
 }
 
-.sub-info2 {
-  /* font-family: "Lato", sans-serif; */
+/* .sub-info2 {
+  font-family: "Lato", sans-serif;
   color: white;
   text-shadow: 1px 1px 2px #08585f, 0 0 1em #08585f, 0 0 0.2em #08585f;
   font-family: "Poppins", sans-serif;
@@ -90,16 +91,16 @@
   margin-left: 12px;
   margin-bottom: 3rem;
   padding-top: 0;
-}
+} */
 
 .register {
   color: #ed5b04;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-shadow: 1px white;
   font-size: 1.25rem;
   margin-left: 12px;
   margin-bottom: 0;
-  font-weight: 400;
-  text-shadow: 1px white;
 }
 
 /* .host-section {
@@ -154,6 +155,8 @@
 }
 
 .ig-feed-section {
+  /* background-image: url("/BoyFishing2.jpg"); */
+  /* background-size: cover; */
   margin-top: 0;
   padding-bottom: 0;
   background-color: #01508b;
@@ -167,6 +170,7 @@
   font-family: "Caudex", serif;
   font-weight: 600;
   color: #ed5b04;
+  /* color: #053e43; */
   display: flex;
   justify-content: center;
 }
@@ -312,74 +316,82 @@ footer {
   }
 
   .title {
-    font-size: 10rem;
-    margin-top: 7rem;
+    font-size: 6rem;
+    margin-top: 3.5rem;
     margin-left: 1.25rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0;
   }
 
   .sub-title {
-    font-size: 7rem;
+    font-size: 4rem;
     /* color: #007190; */
     /* color: #b7bccc; */
     margin: 26px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 15px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
   }
 
   .sub-info {
-    font-size: 3rem;
-    margin-top: 3rem;
-    margin-left: 35px;
-    margin-bottom: 26px;
+    font-size: 1.75rem;
+    margin: 26px;
+    /* margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 26px; */
   }
 
-  .sub-info2 {
+  /* .sub-info2 {
     font-size: 3rem;
     margin-top: 26px;
     margin-left: 35px;
     margin-bottom: 5rem;
-  }
+  } */
 
   .register {
-    font-size: 2rem;
-    margin-left: 40px;
+    font-size: 1.25rem;
+    margin-left: 26px;
     margin-bottom: 0;
   }
 
   .about-section {
     z-index: 0;
-    height: 700px;
+    height: 375px;
     display: grid;
     grid-template-columns: 1fr 1.25fr;
-    margin-top: 300px;
+    margin-top: 150px;
     margin-bottom: 0;
   }
 
   .about-section p {
     display: grid;
     align-items: center;
-    margin-top: -150px;
+    margin-top: -70px;
     margin-right: 100px;
-    margin-left: -40px;
-    font-size: 40px;
+    margin-left: -30px;
+    font-size: 23px;
     /* text-align: start; */
   }
 
   .about-img {
     /* z-index: 1; */
     /* height: 950px; */
-    width: 48rem;
+    width: 26rem;
     height: auto;
-    margin-top: -140px;
-    border: 40px solid white;
+    margin-top: -80px;
+    border: 30px solid white;
     display: flex;
     justify-self: center;
   }
 
+  .ig-feed-section {
+    background-image: url("./images/Bg3.jpg");
+    background-size: cover;
+  }
+
   .stay-updated-text {
-    margin: 50px;
-    font-size: 6rem;
+    margin: 20px;
+    margin-left: 7rem;
+    font-size: 4rem;
     font-weight: 700;
   }
 
@@ -387,14 +399,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15rem;
+    gap: 7rem;
   }
 
   .profile {
-    padding-top: 20px;
-    width: 1350px;
+    padding-top: 7px;
+    width: 600px;
     height: auto;
-    /* padding-bottom: 200px; */
+    padding-bottom: 130px;
   }
 
   .logo-host-container {
@@ -407,13 +419,13 @@ footer {
   }
 
   .host-img {
-    margin-top: -10rem;
-    height: 650px;
+    margin-top: -5rem;
+    height: 20rem;
   }
 
   .logo-img {
     z-index: 1;
-    width: 40rem;
+    width: 20rem;
     height: auto;
     margin-bottom: 0;
     /* position: relative; */
@@ -424,11 +436,12 @@ footer {
   }
 
   .sponsors-text {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     /* text-decoration: underline; */
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: -10rem;
     z-index: 3;
   }
 
@@ -444,7 +457,7 @@ footer {
   }
 
   .footer-content {
-    border: white double 6px;
+    border: white double 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
   }
@@ -462,7 +475,7 @@ footer {
   }
 
   .map-icon {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .icon-text p {
@@ -471,11 +484,11 @@ footer {
   }
 
   .icon {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .icon-text {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 
   .swiper-section {

@@ -53,7 +53,7 @@ a:after {
 .ticketbtn {
   font-size: 1rem;
   margin: 1em;
-  font-family: "Caudex", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   position: relative;
   display: inline-block;
@@ -101,14 +101,14 @@ a:after {
 .ticketbtn:after {
   right: -0.7em;
 }
-.ticketbtn:after {
+/* .ticketbtn:after {
   content: "";
   color: #da153e;
   font-weight: bold;
-}
+} */
 
 @media (min-width: 768px) {
   .ticketbtn {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 }

@@ -26,11 +26,15 @@ function App() {
           <div className="transparent-bg">
             <h1 className="title">Kamali&#x2BB;i Fishing Challenge</h1>
 
-            <h2 className="sub-title">Hawai&#x2BB;i's Largest </h2>
-            <h2 className="sub-title">Keiki Fishing Event</h2>
+            <h2 className="sub-title">
+              Hawai&#x2BB;i's Largest <br /> Keiki Fishing Event{" "}
+            </h2>
+            {/* <h2 className="sub-title">Keiki Fishing Event</h2> */}
 
-            <p className="sub-info">An Annual Celebration Hosted By</p>
-            <p className="sub-info2">Port Allen Fishing Club</p>
+            <p className="sub-info">
+              An Annual Celebration Hosted By <br /> Port Allen Fishing Club
+            </p>
+            {/* <p className="sub-info2">Port Allen Fishing Club</p> */}
 
             <div className="ticket-btn-container">
               <p className="register">Register To Attend</p>
