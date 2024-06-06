@@ -13,7 +13,7 @@ import Host from "./images/Host.png";
 import Logo2 from "./images/Logo2.png";
 import sponsors from "./images/sponsors.png";
 // import { SwiperSlide } from "swiper/react";
-// import Swiper from "./Swiper/Swiper";
+// import Swiper from "./Swiper/Swiper.jsx";
 // import Collage from "./Collage";
 
 function App() {
@@ -90,7 +90,7 @@ function App() {
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
       {/* <div className="swiper-section">
-        <Swiper />
+        <SwiperSlide />
       </div> */}
       <footer>
         <div className="footer-content">
