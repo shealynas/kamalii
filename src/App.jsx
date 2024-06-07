@@ -58,7 +58,7 @@ function App() {
         <p>
           In the heart of Kauai&#x2BB;s west side, a new initiative was born:
           Kamali`i Fishing Challenge. Launched by the Port Allen Fishing Club
-          and spearheaded by Margie Goodman, the event seeks to provide an
+          and spearheaded by Margie Goodno, the event seeks to provide an
           enriching experience for all da generations. Norman Kali, a driving
           force behind the project, envisioned a community-centered, local style
           celebration uniting hundreds of keiki and their ohana. Fueled by
