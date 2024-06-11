@@ -3,7 +3,7 @@
 }
 
 .bg-img {
-  background-image: url("src/images/BoyFishing3.jpg");
+  background-image: url("/BoyFishing3.jpg");
   width: 100%;
   position: fixed;
   z-index: -1;
@@ -227,7 +227,7 @@ footer {
 /*desktop view*/
 @media (min-width: 768px) {
   .bg-img {
-    background-image: url("src/images/BoyFishing4.jpg");
+    background-image: url("/BoyFishing4.jpg");
   }
 
   .top-info {
