@@ -4,17 +4,11 @@ import { InstagramEmbed } from "react-social-media-embed";
 import { TfiInstagram } from "react-icons/tfi";
 import { TfiEmail } from "react-icons/tfi";
 import { PiMapPinLight } from "react-icons/pi";
-
 import TicketButton from "./TicketButton";
 import Logo from "./images/Logo.png";
-// import BoyFishing2 from "./images/BoyFishing2.jpg";
 import GirlFishing2 from "./images/GirlFishing2.jpg";
 import Host from "./images/Host.png";
-import Logo2 from "./images/Logo2.png";
 import sponsors from "./images/sponsors.png";
-// import { SwiperSlide } from "swiper/react";
-// import Swiper from "./Swiper/Swiper.jsx";
-// import Collage from "./Collage";
 
 function App() {
   return (
@@ -29,13 +23,9 @@ function App() {
             <h2 className="sub-title">
               Hawai&#x2BB;i's Largest <br /> Keiki Fishing Event{" "}
             </h2>
-            {/* <h2 className="sub-title">Keiki Fishing Event</h2> */}
-
             <p className="sub-info">
               An Annual Celebration Hosted By <br /> Port Allen Fishing Club
             </p>
-            {/* <p className="sub-info2">Port Allen Fishing Club</p> */}
-
             <div className="ticket-btn-container">
               <p className="register">Register To Attend</p>
               <TicketButton
@@ -46,13 +36,6 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <div className="host-section">
-        
-        <p className="host-content">
-          Hosted by <br /> Port Allen <br />
-          Fishing Club
-        </p>
-      </div> */}
       <div className="about-section">
         <img className="about-img" src={GirlFishing2} alt="" />
         <p>
@@ -83,15 +66,10 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* <Collage /> */}
       <div className="sponsors-section">
         <p className="sponsors-text">Mahalo Sponsors</p>
         <img className="sponsors-img" src={sponsors} alt="" />
       </div>
-      {/* <div className="swiper-section">
-        <SwiperSlide />
-      </div> */}
       <footer>
         <div className="footer-content">
           <div className="address-block">
@@ -140,7 +118,5 @@ function App() {
     </>
   );
 }
-
-// style={{ display: "flex", justifyContent: "center" }}
 
 export default App;
