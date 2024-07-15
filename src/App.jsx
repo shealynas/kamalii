@@ -30,7 +30,7 @@ function App() {
               <p className="register">Register To Attend</p>
               <TicketButton
                 text="Get Tickets"
-                href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
+                href="https://bio.site/keikiokahammaz"
               />
             </div>
           </div>
@@ -110,7 +110,7 @@ function App() {
             <TicketButton
               className="ticketbtn"
               text="Register Here"
-              href="https://unkokimo.ticketbud.com/keikiokahammaz-is-da-future"
+              href="https://bio.site/keikiokahammaz"
             />
           </div>
         </div>
